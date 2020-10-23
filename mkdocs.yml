@@ -8,5 +8,5 @@ theme:
     name: material
     palette:
         scheme: slate
-        primary: white
+        primary: blue grey
         accent: deep orange
