@@ -1,1 +1,6 @@
 site_name: Tomrade 
+theme:
+    name: material
+    theme:
+        palette:
+          scheme: slate
