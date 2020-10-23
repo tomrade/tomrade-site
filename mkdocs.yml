@@ -1,9 +1,11 @@
-site_name: Tomrade 
+site_name: tomrade 
 nav:
-    - home: index.md
-    - projects: projects.md
+    - Home: index.md
+    - Projects: projects.md
+    - Useful Links: links.md
 theme:
     name: material
     palette:
         scheme: slate
-        primary: deep orange
+        primary: white
+        accent: deep orange
