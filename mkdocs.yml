@@ -1,4 +1,7 @@
 site_name: Tomrade 
+nav:
+    home: index.md
+    projects: projects.md
 theme:
     name: material
     palette:
