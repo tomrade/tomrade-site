@@ -1,3 +1,3 @@
-# Welcome to MkDocs
+# Home Page
 
 WIP

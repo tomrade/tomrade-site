@@ -3,3 +3,4 @@ theme:
     name: material
     palette:
         scheme: slate
+        primary: deep orange
