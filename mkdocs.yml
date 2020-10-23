@@ -4,6 +4,7 @@ nav:
     - Projects: projects.md
     - Useful Links: links.md
 theme:
+    logo: img/logo.png
     name: material
     palette:
         scheme: slate
