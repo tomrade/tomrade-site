@@ -4,7 +4,8 @@ nav:
         - About: index.md
     - Projects:
         - Security : projects.md
-    - Useful Links: links.md
+    - Random Stuff:
+        - Useful Links: links.md
 theme:
     logo: img/logo.png
     name: material
