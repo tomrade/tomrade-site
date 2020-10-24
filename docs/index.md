@@ -1,6 +1,8 @@
 # Home Page
 
+## About
 
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
-
+* Intrusion Analyst 
+* Place to record my stuff
+* Wanted to use Github Pages for something
 
