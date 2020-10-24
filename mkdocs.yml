@@ -1,11 +1,15 @@
 site_name: tomrade 
 nav:
-    - Home: index.md
-    - Projects: projects.md
+    - Home: 
+        - About: index.md
+    - Projects:
+        - Security : projects.md
     - Useful Links: links.md
 theme:
     logo: img/logo.png
     name: material
+    features:
+        - navigation.tabs
     palette:
         scheme: slate
         primary: blue grey
