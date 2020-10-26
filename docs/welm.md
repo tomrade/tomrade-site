@@ -43,7 +43,7 @@ Extract this ZIP and change to the "welm" folder, should look like this
 
 ### Install packages with nuget
 
-Now we need to install out packages, There are 2 C# projects ```WelmConsole``` and ```WelmLibrary```. We need to install into a folder called ```Packages``` as thats what bro Visual Studio would do.
+Now we need to install our packages, There are 2 C# projects ```WelmConsole``` and ```WelmLibrary```. We need to install into a folder called ```Packages``` as thats what our bro Visual Studio would do.
 
 ``` powershell
 C:\nuget.exe install .\WelmConsole\packages.config  -OutputDirectory Packages
