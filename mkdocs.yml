@@ -4,6 +4,8 @@ nav:
         - About: index.md
     - Projects:
         - Security : projects.md
+    - Notes:
+        - WELM usage: welm.md
     - Random Stuff:
         - Useful Links: links.md
 theme:
