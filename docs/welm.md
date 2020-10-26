@@ -1,12 +1,12 @@
 # WELM Usage
 
-WELM or "Windows-Event-Log-Messages" is a tool developed my NSAGOV (Snowdens ex) to dump some event/evt data and strings from a Windows system. The "Official" way to compile it , is via Visual Studio however I had some concerns on using this because.
+WELM or "Windows-Event-Log-Messages" is a tool developed my NSAGOV (Snowdens ex) to dump some event/evt data and strings from a Windows system. The "Official" way to compile it , is via [Visual Studio](https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/docs/Building%20WELM.md) however I had some concerns on using this because.
 
-* The environment I was working in may have breached the community license restrictions , as although welm is opensource (allowed), NSAGOV uses a CC license (why?????) which is not an OSI recognised license (required by MS for enterprise usage of Visual Studio community).
+* The environment I was working in may have breached the community license restrictions , as although welm is opensource (allowed), NSAGOV uses a CC license (why?????) which is not an OSI recognised license (required by MS for OSS + enterprise usage of Visual Studio community).
 * Visual Studio is huuuuge (19gb on my test vm) 
 * Visual Studio Code is so hot right now and I didnt want to make it jealous
 
-This worked on my machine (Win 10 Pro 2004) YMMV
+This worked on my machine (Win 10 Pro 2004) YMMV.
 
 ## Compiling without Visual Studio 
 
@@ -26,7 +26,7 @@ Install the ".Net desktop build tools".
 
 ![](img/vis2.png)
 
-You should now have a special powershell and command prompt to building shiz
+You should now have a special powershell and command prompt for building shiz
 
 ![](img/vis3.png)
 
