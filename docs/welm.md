@@ -88,18 +88,31 @@ MSBuild.exe .\welm.sln /p:Configuration=Release
 
 You may get some warnings but its not building if you dont get that right???. If you see red you most likely are missing either dontnet4-4.6 SDK or your nuget was wrong.
 
-## live the dream
+## Run WELM AKA living the dream
 
-You will now have a build under ```welm\WelmConsole\bin\Release\```
+![](img/vis10.jpg)
+
+You will now have a ready build under ```welm\WelmConsole\bin\Release\```. You should copy this to machine you want dump strings from . The idea is you want to install anything you want to dump strings from, There are some guides on running it with some setup scripts to help you get the most strings for your money are [here](https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/docs/Retrieving%20Data.md).
 
 ![](img/vis6.png)
 
+The main binary is ```WelmConsole.exe```. This is what is used to dump details
+
+* Providers - the Event/ETL groupings ie "yadda yadda auditing"
+* Logs - The actually files (evtx) that these are written to
+* Events - The actually events strings + template options (this is what you normally want)
+
 ![](img/vis7.png)
+
 You can run WELM (dont forget to level up to admin) as described in the project wiki for example to **dump events to csv** 
 
-
-```WelmConsole.exe -e -f csv```
+```
+WelmConsole.exe -e -f csv
+```
 
 events.csv produced
 
 ![](img/vis8.png)
+
+This isnt instant and took at least "a cup of tea making" time on my 2nd gen Ryzen 7. You likely want JSON for other tooling but CSV is great for looking at by hand. 
+
