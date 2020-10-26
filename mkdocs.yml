@@ -15,5 +15,5 @@ theme:
         - navigation.tabs
     palette:
         scheme: slate
-        primary: deep orange
+        primary: blue grey
         accent: deep orange
