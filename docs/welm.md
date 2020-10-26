@@ -25,7 +25,21 @@ Install the ".Net desktop build tools".
 
 ![](img/vis2.png)
 
-You should now have a special powershell and command prompt for building shiz.
+You should now have a special powershell and command prompt for building shiz. 
+
+
+You can add this to [Windows Terminal](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/) with the following config.
+
+``` json
+{
+    // Todo set a icon.
+    "name": "Visual Studio 2019 PS",
+    "commandline": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -noe -c \"&{Import-Module \"\"\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell e8d3f04a}\"",
+    "hidden": false
+}
+```
+
+![](img/vis9.png)
 
 ![](img/vis3.png)
 
