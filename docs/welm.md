@@ -36,6 +36,7 @@ Install the ".Net desktop build tools".
 
 You should now have a special powershell and command prompt for building shiz. 
 
+![](img/vis3.png)
 
 You can add this to [Windows Terminal](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/) with the following config.
 
@@ -50,7 +51,7 @@ You can add this to [Windows Terminal](https://devblogs.microsoft.com/commandlin
 
 ![](img/vis9.png)
 
-![](img/vis3.png)
+
 
 ### Install Nuget
 
