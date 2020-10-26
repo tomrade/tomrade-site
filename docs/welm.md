@@ -1,5 +1,6 @@
 # WELM Usage
 
+## What is WELM
 
 WELM or "[Windows-Event-Log-Messages](https://github.com/nsacyber/Windows-Event-Log-Messages)" is a tool developed by NSAGOV (Snowdens ex) to dump some event/EVT data and strings from a Windows system. This can then be used to enrich log and trace information in analysis platforms in order reconstruct event messages.
 
@@ -8,7 +9,6 @@ WELM or "[Windows-Event-Log-Messages](https://github.com/nsacyber/Windows-Event-
 They also published datasets for various operating systems but stopped in 2017 for some reason. Most of the core events are the same however its useful to dump newer builds. **The code hasnt been updated since 2017** but still works today (2020).
 
 ![](img/vis0.jpg)
-
 
 
 The "Official" way to compile it , is via [Visual Studio](https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/docs/Building%20WELM.md) however I had some concerns on using this because.
