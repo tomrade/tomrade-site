@@ -1,6 +1,6 @@
 # WELM Usage
 
-WELM or "Windows-Event-Log-Messages" is a tool developed my NSAGOV (Snowdens ex) to dump some event/evt data and strings from a Windows system. The "Official" way to compile it , is via [Visual Studio](https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/docs/Building%20WELM.md) however I had some concerns on using this because.
+WELM or "[Windows-Event-Log-Messages](https://github.com/nsacyber/Windows-Event-Log-Messages)" is a tool developed my NSAGOV (Snowdens ex) to dump some event/evt data and strings from a Windows system. The "Official" way to compile it , is via [Visual Studio](https://github.com/nsacyber/Windows-Event-Log-Messages/blob/master/docs/Building%20WELM.md) however I had some concerns on using this because.
 
 * The environment I was working in may have breached the community license restrictions , as although welm is opensource (allowed), NSAGOV uses a CC license (why?????) which is not an OSI recognised license (required by MS for OSS + enterprise usage of Visual Studio community).
 * Visual Studio is huuuuge (19gb on my test vm) 
@@ -76,3 +76,7 @@ You can run WELM (dont forget to level up to admin) as described in the project 
 
 
 ```WelmConsole.exe -e -f csv```
+
+events.csv produced
+
+![](img/vis8.png)
