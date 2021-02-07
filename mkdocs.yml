@@ -6,6 +6,7 @@ nav:
         - Security : projects.md
     - Notes:
         - WELM usage: welm.md
+        - HyperV: hyperv.md
     - Random Stuff:
         - Useful Links: links.md
 theme:
