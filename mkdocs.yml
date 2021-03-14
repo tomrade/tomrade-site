@@ -5,8 +5,10 @@ nav:
     - Projects:
         - Security : projects.md
     - Notes:
-        - WELM usage: welm.md
-        - HyperV: hyperv.md
+        - Windows:
+            - WELM usage: welm.md
+            - HyperV: hyperv.md
+            - iis: iis.md
     - Random Stuff:
         - Useful Links: links.md
 theme:
@@ -18,3 +20,6 @@ theme:
         scheme: slate
         primary: indigo
         accent: deep orange
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
