@@ -6,7 +6,9 @@ nav:
         - Security : projects.md
     - Notes:
         - Windows:
-            - WELM usage: welm.md
+            - Event Logs:
+                - Basics: event_logs.md
+                - WELM usage: welm.md
             - HyperV: hyperv.md
             - iis: iis.md
     - Random Stuff:
