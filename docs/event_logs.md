@@ -9,6 +9,8 @@ To enable proceess auditing (advanced audit) you need to set the following polic
 
 To enabled commandline logging along with this  do the following.
 
+![](img/event_log_commandLine_gpo.png)
+
 You should now have events
 * "4688" Process Creation
 * "4689" Process Termination
